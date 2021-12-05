@@ -1,0 +1,17 @@
+<p>
+<%= link_to 'Idioma Português', root_path(locale: 'pt-BR') %>
+</p>
+
+<p>
+<%= link_to 'English', root_path(locale: 'en') %>
+</p>
+
+<h1>Seja Bem-vindo</h1>
+<p> A lingua que esta sendo ultilizada é <strong> <%= locale(I18n.locale) %> </strong> </p>
+<p>Data: <%= I18n.l(Date.today) %></p>
+<p> <strong> <%= I18n.t('hello') %> </strong> </p>
+<%= render "menu" %>
+
+<p>Eu estou programando em <strong><%= ambiente_env %> </strong></p>
+<p>Eu sou uma variavel de instancia/sessão <strong> <%= @nome %> </strong></p>
+<p> Meu curso é o curso de <strong><%= @curso %></strong></p>
