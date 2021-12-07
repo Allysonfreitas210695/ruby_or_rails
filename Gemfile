@@ -22,6 +22,12 @@ gem 'tty-spinner'
 # internacionalizado o projeto Ruby
 gem 'rails-i18n', '~> 5.1'
 
+# # usando a biblioteca Rails-assets.org
+# source 'https://rails-assets.org' do
+#   gem 'rails-assets-jquery'
+#   gem 'rails-assets-notifyjs'
+# end
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
