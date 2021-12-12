@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Mining Types</h1>
+<p class="h2"><%= t('mining_type') %></p>
 
 <table class="table table-hover">
   <thead>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Mining Type', new_mining_type_path %>
+<%= link_to t('add_mining_type'), new_mining_type_path, class: 'btn btn-primary', role: 'button' %>

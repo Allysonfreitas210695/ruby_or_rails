@@ -13,12 +13,17 @@
   </head>
 
   <body>
-    <h1>Cabeçalha - <%= params[:controller]%> </h1>
-    <%= yield %>
-    <h1> Rodapé </h1>
-
-    <script>
-    $.notify("Access granted", "success");
-    </script>
+    <div class="container-fluid">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <%= link_to 'Idioma Português', root_path(locale: 'pt-BR'), class:"navbar-brand" %>
+          <%= link_to 'English', root_path(locale: 'en'), class:"navbar-brand" %>
+        </div>
+      </nav>
+      <%= yield %>
+    </div>
+      <%# <script>
+      $.notify("Access granted", "success");
+      </script> %>
   </body>
 </html>

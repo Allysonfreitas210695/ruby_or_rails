@@ -31,6 +31,14 @@
 
 en:
   hello: 'Hello world'
+  welcome: 'Welcome!!'
+  text: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies'
+  button_crypto: 'coins'
+  coin: 'coins'
+  add_coin: 'new coin'
+  button_type: 'type of mining'
+  mining_type: 'Mining Type'
+  add_mining_type: 'New Mining Type'
   links:
     edit: 'Edit'
     show: 'Show'

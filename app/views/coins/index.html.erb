@@ -1,9 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>moedas</h1>
-
-<h2> <%= cookies[:user_name] %> </h2>
-<h2> <%= session[:user_name] %> </h2>
+<h1><%= t('coin') %></h1>
 
 <table class="table table-hover">
   <thead>
@@ -32,4 +29,4 @@
 
 <br>
 
-<%= link_to 'Nova Moeda', new_coin_path %>
+<%= link_to t('add_coin'), new_coin_path, class: 'btn btn-primary', role: 'button' %>
