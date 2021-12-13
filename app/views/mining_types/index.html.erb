@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<p class="h2"><%= t('mining_type') %></p>
+<p class="h2"><%= MiningType.model_name.human(count: MiningType.count) %></p>
 
 <table class="table table-hover">
   <thead>

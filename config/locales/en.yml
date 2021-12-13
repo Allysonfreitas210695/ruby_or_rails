@@ -33,13 +33,29 @@ en:
   hello: 'Hello world'
   welcome: 'Welcome!!'
   text: 'This is Crypto Wallet, an app for you to register and track your cryptocurrencies'
-  button_crypto: 'coins'
-  coin: 'coins'
+  button_crypto: 'Coins'
+  coin: 'Coins'
   add_coin: 'new coin'
-  button_type: 'type of mining'
+  button_type: 'Type of mining'
   mining_type: 'Mining Type'
   add_mining_type: 'New Mining Type'
   links:
     edit: 'Edit'
     show: 'Show'
     destroy: 'Delete'
+    back: 'Back'
+  coin: 
+    description: 'Description:'
+    acronym: 'Acronym:'
+    text: 'Editing Coin'
+  mining_type: 
+    description: 'Description:'
+    acronym: 'Acronym:'
+    text: 'Editing Mining Type'
+  placeholder:
+    coin:
+      description: 'ex: Bitcoin'
+      acronym: 'mining example BTC'
+    mining_type:
+      description: 'ex: Proof of Work'
+      acronym: 'mining example PoW'

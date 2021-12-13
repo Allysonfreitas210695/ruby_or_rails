@@ -3,12 +3,28 @@ pt-BR:
   welcome: 'Seja Bem-vindo!!'
   text: 'Este é o Crypto Wallet, um app para você cadastrar e acompanhar as suas cryptoMoedas'
   button_crypto: 'Moedas'
-  button_type: 'tipo de mineração'
+  button_type: 'Tipo de mineração'
   coin: 'moedas'
   add_coin: 'Nova Moeda'
-  mining_type: 'tipo de mineração'
+  mining_type: 'Tipo de mineração'
   add_mining_type: 'Adicionar Novo Tipo de Moeda'
   links:
     edit: 'Edita'
     show: 'Mostra'
     destroy: 'Apagar'
+    back: 'Voltar'
+  coin: 
+    description: 'Descrição:'
+    acronym: 'Sigla:'
+    text: 'Editar Moeda'
+  mining_type: 
+    description: 'Descrição:'
+    acronym: 'Tipo da Mineração:'
+    text: 'Editar Tipo da Moeda'
+  placeholder:
+    coin:
+      description: 'Tipo da moeda ex: Bitcoin'
+      acronym: 'Sigla da moeda ex: BTC'
+    mining_type:
+      description: 'Tipo da mineração ex: Proof of Work'
+      acronym: 'Sigla da Mineração ex: PoW'

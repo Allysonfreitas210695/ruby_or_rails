@@ -13,7 +13,7 @@ pt-BR:
         description: Descrição
         acronym: Sigla
         url_image: URL
-        mining_type: tipo da mineração
+        mining_type: Tipo da mineração
         mining_type_id: tipo da mineração
         updated_at: Atualizado em
         created_at: criado em

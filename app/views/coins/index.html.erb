@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1><%= t('coin') %></h1>
+<h1><%= Coin.model_name.human(count: Coin.count) %></h1>
 
 <table class="table table-hover">
   <thead>
